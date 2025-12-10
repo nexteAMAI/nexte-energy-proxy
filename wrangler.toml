@@ -1,0 +1,6 @@
+name = "nexte-energy-proxy"
+main = "src/index.js"
+compatibility_date = "2025-12-10"
+
+[env.production]
+vars = { ALLOWED_ORIGIN = "https://nexte-AM.github.io" }
